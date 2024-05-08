@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.service{
+    background-image: url(assets/hotel-background-image.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position:  top;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:500px) {
+    
+    .service {
+        background-image: url(assets/hotel-background-image.jpg);
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* .service-content{
+        margin: 0px;
+    } */
+    .service-content .ser-img{
+        width: 400px;
+    }
+
+}
+
+
+/* .service-content{
+    margin-left:250px;
+    margin-right:250px;
+} */

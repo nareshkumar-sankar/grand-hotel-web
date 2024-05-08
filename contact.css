@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact{
+    background-image: url(assets/hotel-background-image.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position:  top;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:500px) {
+    
+    .contact {
+        background-image: url(assets/hotel-background-image.jpg);
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    iframe{
+        width: 380px;
+    }
+}
